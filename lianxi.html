@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <script>
+        var djstime= 7200; //一个小时，按秒计算，自己调整!     
+             timerc = setInterval(function(){
+                  if (djstime >= 0) {
+                    hours=Math.floor(djstime / 3600);
+                      minutes = Math.floor(djstime%3600/60);
+                     seconds = Math.floor(djstime % 60);
+                    
+                    djstime--;
+                 } else{
+                     djstime=7200;
+                 }
+             }, 1000); 
+
+    </script>
+    </body>
+</html>

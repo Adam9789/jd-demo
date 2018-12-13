@@ -1,0 +1,305 @@
+html,body,p,ul,li,ol,h1,h2,h3,h4,h5,h6,fieldset,legend,figure,figcaption,form,input
+{  margin:0px;padding:0px;}
+h1,h2,h3,h4,h5,h6{font-size: 16px;font-weight: normal;}
+ul,ol,li{list-style: none}
+a{text-decoration: none}
+b,strong{font-weight: normal;}
+em,i{font-style: normal;}
+img{
+    border:none;
+}
+body{
+    font-size: 12px;
+    color: #666;
+}
+
+header{
+    height: 110px;
+    background: url(../images/headerbg.jpg) repeat-x bottom;
+}
+.headerww{
+    width: 1210px;
+    margin: 0 auto;
+}
+.logo{
+    width: 160px;
+    height: 50px;
+    float: left;
+    margin-top: 24px;
+    background: url(../images/zhucesprite.png) no-repeat;
+}
+.welc{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    margin-top: 34px;
+}
+.login{
+    font-size: 16px;
+    float: right;
+    margin-top: 55px;
+    color: #999;
+}
+.login a{
+    color: #e22;
+}
+section{
+    width: 1210px;
+    margin: 0 auto;
+    height: 500px;
+}
+.process{
+    position: relative;
+    margin: 80px auto 0;
+    width: 400px;
+    height: 55px;
+}
+.step{
+    float: left;
+    text-align: center;
+}
+.step2{
+    margin-left: 106px;
+}
+.step3{
+    margin-left: 112px;
+}
+.stepnum{
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ccc;
+    background: url(../images/zhucesprite2.png) no-repeat -45px -200px;
+}
+.stn1{
+    background-position: 0 -200px;
+    color: #fff;
+}
+.stepcc{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999;
+}
+.stepcc1{
+    color: #3b4;
+}
+.proline1{
+    left: 55px;
+    position: absolute;
+    top: 7px;
+    width: 124px;
+    height: 10px;
+    background: url(../images/zhucesprite2.png) no-repeat 0px -100px;
+}
+.proline2{
+    left: 228px;
+    position: absolute;
+    top: 7px;
+    width: 124px;
+    height: 10px;
+    background: url(../images/zhucesprite2.png) no-repeat 0px -100px;
+}
+input{
+    outline: none;
+    font-size: 14px;
+    color: #333;
+}
+::-webkit-input-placeholder{
+    color: #ccc;
+}
+/* 第一步的样式 */
+.kuang1{
+    width: 400px;
+    height: 246px;
+    margin: 50px auto 0;
+    /* display: none; */
+}
+.sjnum{
+    width: 400px;
+    height: 86px;
+    position: relative;  
+}
+#phone{
+    width: 383px;
+    height: 50px;
+    border:1px solid #ddd;
+    padding-left: 15px;
+}
+#phone:hover{
+    border: 1px solid rgb(153,153,153);
+}
+.tishi1,.tishi3,.tishi4,.tishi5{
+    color: #c5c5c5;
+    height: 27px;
+    font-size: 12px;
+    padding-top: 5px;
+    display: none;
+}
+.ts1,.ts3,.ts4,.ts5{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-top;
+    margin-right: 8px;
+    background: url(../images/zhucesprite.png) 0px -100px;
+}
+.yes1,.yes3,.yes4,.yes5{
+    position: absolute;
+    display: none;
+    width: 16px;
+    height: 16px;
+    top: 20px;
+    right: 20px;
+    background: url(../images/zhucesprite.png) 0px -117px;
+}
+.yanzheng{
+    line-height: 52px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    z-index: 2;
+    width: 398px;
+    height: 50px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+.yanzheng:hover{
+    border: 1px solid rgb(153,153,153);
+}
+.tishi2{
+    width: 100%;
+    height: 32px;
+    margin-bottom: 18px;
+}
+
+.nextstep{
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    color: #fff;
+    background: #e2231a;
+    border: 0;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    cursor: pointer;
+}
+.nextstep:hover{
+    background: #c81623;
+}
+/* 第二步的样式 */
+.kuang2{
+    width: 400px;
+    height: 344px;
+    margin: 50px auto 0;
+    display: none;
+}
+.yonghuming,.mima1,.mima2{
+    width: 100%;
+    height: 86px;
+    position: relative;
+}
+.username,.password,.pwagain{
+    width: 271px;
+    height: 50px;
+    border:1px solid #ddd;
+    padding-left: 127px;
+}
+.username:hover{
+    border: 1px solid rgb(153,153,153);
+}
+.password:hover{
+    border: 1px solid rgb(153,153,153);
+}
+.pwagain:hover{
+    border: 1px solid rgb(153,153,153);
+}
+.kzi{
+    position: absolute;
+    width: 87px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #666;
+}
+/* 完成 */
+.tt{
+    margin:60px auto 0;
+    display: none;
+}
+.wancheng{
+    margin: 0 auto 10px;
+    display: block;
+    height: 56px;
+    width: 56px;
+    background: url(../images/complete1.png) no-repeat;
+}
+.gongxi{
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    line-height: 40px;
+}
+.zhufu{
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    line-height: 26px;
+}
+.gogo{
+    margin: 40px 0 87px;
+    text-align: center;
+    display: none;
+}
+.gogo a{
+    height: 52px;
+    padding: 0 25px;
+    border: 1px solid #ee2223;
+    background: #ee2223;
+    font-size: 16px;
+    color: #fefefe;
+    font-weight: 700;
+    line-height: 52px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* footer */
+footer{
+    width: 1210px;
+    height: 116px;
+    margin:0 auto;
+    text-align: center;
+    border-top:1px solid #e6e6e6;
+    overflow: hidden;
+}
+.daoyinav{
+    width: 1210px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    margin: 30px 0 10px;
+}
+.daoyinav a{
+    color: #999;
+}
+.daoyinav a:hover{
+    color: #e4393c;
+    text-decoration: underline;
+}
+.daoyishu{
+    margin:0 12px;
+    color: #999999;
+}
+.zuihou{
+    font-size: 12px;
+    color: #999;
+    line-height: 30px;
+}

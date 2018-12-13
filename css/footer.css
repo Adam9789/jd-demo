@@ -1,0 +1,199 @@
+.dkhsss{
+    height: 102px;
+    background: #f1f3f0;
+}
+.dkhs{
+    width: 1190px;
+    height: 42px;
+    margin:0 auto;
+    padding:30px 0;
+ }
+ .dkhs li{
+    float: left;
+    width: 297px;
+    height: 42px;
+ }
+ .dkhs h4{
+    float: left;
+    width: 36px;
+    height: 42px;
+    margin:0 10px 0 37px;
+ }
+ .dkhs .ziduo{
+    background: url(../images/smgui.png) no-repeat 0px  -192px;
+ }
+ .dkhs .zikuai{
+    background: url(../images/smgui.png) no-repeat -41px  -192px;
+ }
+ .dkhs .zihao{
+    background: url(../images/smgui.png) no-repeat -82px  -192px;
+ }
+ .dkhs .zisheng{
+    background: url(../images/smgui.png) no-repeat -123px  -192px;
+ }
+ .dkhs p{
+    overflow: hidden;
+    float: left;
+    width: 170;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #444;
+ }
+.daoer{
+    height: 160px;
+    padding: 20px 0;
+    border-top: 1px solid #dededc;
+    background: #f1f3f0;
+    width: 100%;
+}
+.daoerz{
+    height: 160px;
+    margin: 0 auto;
+    width: 1190px;
+}
+.nav111{
+    width: 198px;
+    float: left;
+    line-height: 22px;
+}
+.nav111_tou{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #666666;
+}
+.nav111_body a{
+    color: #676664;
+}
+.nav111_body a:hover{
+    color: #c81623;
+}
+.ditutu{
+    float: left;
+    width: 200px;
+    height: 150px;
+    background: url(../images/smgui.png) no-repeat 0 0;
+    color: #666666;
+}
+.ditutu_tou{
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    height: 22px;
+    width: 200px;
+    font-weight: 600;
+}
+.dadidi{
+    padding:0 10px;
+    width: 180px;
+    line-height: 18px;
+}
+.dituchakan{
+    line-height: 18px;
+    height: 18px;
+    width: 200px;
+    text-align: right;
+}
+.dituchakan a{
+    color: #666666;
+}
+.dituchakan i{
+    font-size: 12px !important;
+}
+.dituchakan a:hover{
+    color: #c81623;
+}
+footer{
+    width: 100%;
+    height: 246px;
+    background: #f1f3f0;
+}
+.footera{
+    width: 1190px;
+    height: 230px;
+    padding-top: 15px;
+    margin:0 auto;
+    text-align: center;
+    border-top: 1px solid #e1e1e1;
+}
+.daoyinav{
+    width: 1190px;
+    height: 18px;
+    line-height: 18px;
+}
+.daoyinav a{
+    color: #666;
+}
+.daoyinav a:hover{
+    color: #c81623;
+}
+.daoyishu{
+    margin:0 10px;
+    color: #cccccc;
+}
+.gongan{
+    padding: 10px 0;
+    line-height: 22px;
+    color: #999;
+}
+.gongan a{
+    color: #999;
+}
+.gongan a:hover{
+    color: #c81623;
+}
+.guoqi{
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 12px;
+    margin-right: 10px;
+    background: url(../images/smgui.png) no-repeat ;
+}
+.guoqi1{
+    background-position: -108px -155px;
+}
+.guoqi2{
+    background-position: -168px -155px;
+}
+.guoqi3{
+    background-position: -148px -155px;
+}
+.guoqi4{
+    background-position: -128px -155px;
+}
+.guoqi5{
+    background-position: -108px -172px;
+}
+.moca{
+    margin: 25px auto;
+    width: 1190px;
+    height: 32px;
+}
+.moca a{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 3px;
+    width: 103px;
+    height: 32px;
+}
+.moca1{
+    background: url(../images/smgui.png) no-repeat -205px -111px;
+}
+.moca2{
+    background: url(../images/smgui.png) no-repeat -205px -74px;
+}
+.moca3{
+    background: url(../images/smgui.png) no-repeat -205px -37px;
+}
+.moca4{
+    background: url(../images/smgui.png) no-repeat -205px -0px;
+}
+.moca5{
+    background: url(../images/smgui.png) no-repeat -205px -148px;
+}

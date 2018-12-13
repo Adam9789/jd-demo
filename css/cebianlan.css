@@ -1,0 +1,95 @@
+/*侧边栏*/
+.cebianlan{
+    width: 6px;
+    background: #7a6e6e;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0;
+    z-index: 6;
+}
+.cebianhexin{
+    position: absolute;
+    top: 50%;
+    left: -29px;
+    width: 35px;
+    margin-top: -80px;
+}
+.cebianxiao{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    background: #7a6e6e;
+    border-radius: 3px 0px 0px 3px;
+    
+}
+.cebianxiao i{
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    z-index: 6;
+    background-color:  #7a6e6e;
+}
+.cebian_icon1{
+    background: url(../images/cebian.png) no-repeat
+    -88px -175px;
+}
+.cebian_icon2{
+    background: url(../images/cebian.png) no-repeat
+    -50px 0px;
+}
+.cebian_icon3{
+    background: url(../images/cebian.png) no-repeat
+    -50px -50px;
+}
+.cebian_icon4{
+    background: url(../images/cebian.png) no-repeat
+    -50px -100px;
+}
+.cebian_icon5{
+    background: url(../images/cebian.png) no-repeat
+    -190px -150px;
+}
+.cebian_icon6{
+    background: url(../images/cebian.png) no-repeat
+    -50px -150px;
+}
+.cebian_icon7{
+    background: url(../images/cebian.png) no-repeat
+    -50px -300px;
+}
+.cebianxiao .ceem{
+    width: 62px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    z-index: 4;
+    left: 0px;
+    top: 0px;
+    background:#7a6e6e;
+    border-radius: 3px 0px 0px 3px;
+    transition: left 0.3s ease-in-out 0.1s;
+}
+.cebianxiao:hover .ceem{
+    left: -62px;
+    background: #c81623;
+}
+.cebianxiao:hover .cebianlan_icon{
+    background-color: #c81623;
+}
+.youxiajiao{
+    position: absolute;
+    bottom: -1px;
+    width: 35px;
+    left: -29px;
+}
+
+.cebian_icon8{
+    background: url(../images/cebian.png) no-repeat
+    -50px -250px;
+}

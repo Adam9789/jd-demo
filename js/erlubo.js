@@ -1,3 +1,5 @@
+//第二个轮播（banner部分京东秒杀）
+//获取数据
 $.ajax({
     type: "get",
     url: "php/aaa.php",
@@ -16,7 +18,7 @@ $.ajax({
             </div>`
         });
         xxxbaba.innerHTML = erlunbostr;
-
+        //移动函数
         function lunbo(aa, bb, cc) {
             clearInterval(aa.timer)
             if (bb === "left") {

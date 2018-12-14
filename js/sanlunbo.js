@@ -1,3 +1,5 @@
+//第三个轮播
+//数据获取
 $.ajax({
     type: "get",
     url: "php/aaa.php",
@@ -12,7 +14,7 @@ $.ajax({
         </div>`
         });
         sanbaba.innerHTML = sanlunbostr;
-
+//移动函数
 function lunbo3(aa,bb,cc){
         clearInterval(aa.timer)
         if(bb==="left"){
@@ -47,21 +49,22 @@ function lunbo3(aa,bb,cc){
             dianbianse3()
     },4000)
 
+    //原点触摸移动
     var sanli=document.querySelectorAll("#san3dian div")
     for(var k3=0;k3<sanli.length;k3++){
-        sanli[k3].lululu=k3;
+        sanli[k3].index=k3;
         sanli[k3].onmouseover=function(){
-            if(this.lululu>=sani){
-                lunbo3(sanbaba,"left",-180*this.lululu)
+            if(this.index>=sani){
+                lunbo3(sanbaba,"left",-180*this.index)
             }else{
-                lunbo3(sanbaba,"right",-180*this.lululu)
+                lunbo3(sanbaba,"right",-180*this.index)
             }
-            sani=this.lululu;
+            sani=this.index;
             dianbianse3()
         }
     }
 
-
+// 清除其他，设置当前圆点颜色函数
 function dianbianse3(){
     for(var sanj=0;sanj<sanli.length;sanj++){
         sanli[sanj].className="sandian2";

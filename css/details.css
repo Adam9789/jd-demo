@@ -1222,3 +1222,31 @@ nav{
     padding-left: 4em;
     padding-bottom: 25px;
 }
+.shengming{
+    line-height: 180%;
+}
+.shengming strong{
+    display: inline-block;
+    padding: 8px 0 3px;
+    font-weight: bold;
+    color: #e4393c;
+}
+.shengming b{
+    font-weight: bold;
+}
+.wupingjia{
+    padding: 25px 0;
+    height: 93px;
+}
+.nopingjia{
+    background: url(../images/pinglun0.png) no-repeat;
+    width: 320px;
+    height: 58px;
+    margin: 16px auto 0;
+    padding-top: 19px;
+    padding-left: 98px;
+    color: #999;
+}
+.jianjie2,.jianjie3{
+    display: none;
+}

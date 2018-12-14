@@ -15,7 +15,7 @@ zhanghaodl.onclick=function(){
     saomasc.style.display="none";
 }
 
-
+//存储用户仅有"laiqian  123" "longzhu  123" " shuaiting  123"可登录
 dlu.onclick=function(){
     
         var ajax=new XMLHttpRequest();

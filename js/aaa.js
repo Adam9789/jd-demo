@@ -1,3 +1,4 @@
+// 大轮播右侧三张图的获取
 $.ajax({
     type:"get",
     url:"php/aaa.php",
@@ -10,6 +11,7 @@ $.ajax({
         $(".santu").html(santustr);
     }
 })
+// 全球好物日图片获取
 $.ajax({
     type:"get",
     url:"php/aaa.php",
@@ -34,6 +36,7 @@ $.ajax({
         $(".asdx").html(asdxstr);
     }
 })
+// banner右侧促销新闻获取
 $.ajax({
     type:"get",
     url:"php/aaa.php",
@@ -48,6 +51,7 @@ $.ajax({
         $("#zizi").html(cuxiaostr);
     }
 })
+// banner右侧公告信息获取
 $.ajax({
     type:"get",
     url:"php/aaa.php",
@@ -62,6 +66,7 @@ $.ajax({
         $("#zizi1").html(gonggaostr);
     }
 })
+// 大商品列表
 $.ajax({
     type:"get",
     url:"php/aaa.php",

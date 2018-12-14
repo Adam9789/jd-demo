@@ -25,6 +25,7 @@ header{
     line-height: 30px;
     /*background: green;*/
 }
+/* header左侧 */
 .hl{
     float: left;
     height: 30px;
@@ -98,10 +99,7 @@ header{
     padding: 0 8px;
     float: left;
 }
-/*.chuxian000 .chuxianzi01{
-    background: #f10215;
-    color: #fff;
-}*/
+
 .chuxianzi0:hover{
     background: #f4f4f4;
     color: #e33333;
@@ -158,10 +156,7 @@ header{
     background-position: -108px -172px;
 }
 
-
-
-
-
+/* header右侧 */
 
 .hr{
     float: right;
@@ -422,18 +417,31 @@ header{
 .chuxian4 a:hover{
     color: #e33333;
 }
-
-
-
+/* 二维码 */
 .ewm{
-    width: 60px;
-    height: 60px;
+    width: 61px;
+    height: 61px;
     background: url(../images/ewm.png) no-repeat center;
+    padding: 1px;
+    border: 1px solid #ccc;
     position: absolute;
     right: 3px;
-    bottom: -60px;
+    bottom: -65px;
     z-index: 1;
     cursor: pointer;
+}
+.ewm::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: -9px;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e4e4e4 #e4e4e4 #f6f6f6;
 }
 
 /*nav*/
@@ -1806,12 +1814,12 @@ nav #nbtn{
     justify-content:space-between;
 }
 /*时尚达人*/
-.qingshiban{
+.mokuainame{
     width: 1190px;
     margin: 0 auto;
     height: 65px;
 }
-.qingshiban h3{
+.mokuainame h3{
     position: relative;
     width: 150px;
     height: 45px;

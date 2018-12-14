@@ -1,4 +1,5 @@
- function lunbo4(aa,bb,cc){
+// 排行榜选项卡及点击轮播
+function lunbo4(aa,bb,cc){
         clearInterval(aa.timer)
         if(bb==="left"){
             aa.timer=setInterval(function(){
@@ -23,14 +24,14 @@
 var zn95=document.querySelectorAll(".znzn390355")
 var txxx=document.querySelectorAll(".gwzn li")
     for( var k11=0;k11<txxx.length;k11++){
-        txxx[k11].lululu=k11
+        txxx[k11].index=k11
         txxx[k11].onmouseover=function(){
                 for(var t11=0;t11<zn95.length;t11++){
                      zn95[t11].style.display="none";
                      txxx[t11].style.color="#666666"
                 }   
-            zn95[this.lululu].style.display="block";
-            txxx[this.lululu].style.color="#df2622"
+            zn95[this.index].style.display="block";
+            txxx[this.index].style.color="#df2622"
         }
     }
 
@@ -44,14 +45,14 @@ var i4=0;
 var lisphb=document.querySelectorAll(".z351 .paihang1dianbaba div")
 var z351=document.querySelector(".z351 .znzn700330")
     for(var k4=0;k4<lisphb.length;k4++){
-        lisphb[k4].lululu=k4;
+        lisphb[k4].index=k4;
         lisphb[k4].onmouseover=function(){
-            if(this.lululu>=i4){
-                lunbo4(z351,"left",-350*this.lululu)
+            if(this.index>=i4){
+                lunbo4(z351,"left",-350*this.index)
             }else{
-                lunbo4(z351,"right",-350*this.lululu)
+                lunbo4(z351,"right",-350*this.index)
             }
-            i4=this.lululu;
+            i4=this.index;
             dianbianse4()
         }
     }
@@ -59,14 +60,14 @@ var i42=0;
 var lisphb2=document.querySelectorAll(".z352 .paihang1dianbaba div")
 var z352=document.querySelector(".z352 .znzn700330")
     for(var k42=0;k42<lisphb2.length;k42++){
-        lisphb2[k42].lululu=k42;
+        lisphb2[k42].index=k42;
         lisphb2[k42].onmouseover=function(){
-            if(this.lululu>=i42){
-                lunbo4(z352,"left",-350*this.lululu)
+            if(this.index>=i42){
+                lunbo4(z352,"left",-350*this.index)
             }else{
-                lunbo4(z352,"right",-350*this.lululu)
+                lunbo4(z352,"right",-350*this.index)
             }
-            i42=this.lululu;
+            i42=this.index;
             dianbianse42()
         }
     }
@@ -75,14 +76,14 @@ var i43=0;
 var lisphb3=document.querySelectorAll(".z353 .paihang1dianbaba div")
 var z353=document.querySelector(".z353 .znzn700330")
     for(var k43=0;k43<lisphb3.length;k43++){
-        lisphb3[k43].lululu=k43;
+        lisphb3[k43].index=k43;
         lisphb3[k43].onmouseover=function(){
-            if(this.lululu>=i43){
-                lunbo4(z353,"left",-350*this.lululu)
+            if(this.index>=i43){
+                lunbo4(z353,"left",-350*this.index)
             }else{
-                lunbo4(z353,"right",-350*this.lululu)
+                lunbo4(z353,"right",-350*this.index)
             }
-            i43=this.lululu;
+            i43=this.index;
             dianbianse43()
         }
     }
@@ -90,14 +91,14 @@ var i44=0;
 var lisphb4=document.querySelectorAll(".z354 .paihang1dianbaba div")
 var z354=document.querySelector(".z354 .znzn700330")
     for(var k44=0;k44<lisphb4.length;k44++){
-        lisphb4[k44].lululu=k44;
+        lisphb4[k44].index=k44;
         lisphb4[k44].onmouseover=function(){
-            if(this.lululu>=i44){
-                lunbo4(z354,"left",-350*this.lululu)
+            if(this.index>=i44){
+                lunbo4(z354,"left",-350*this.index)
             }else{
-                lunbo4(z354,"right",-350*this.lululu)
+                lunbo4(z354,"right",-350*this.index)
             }
-            i44=this.lululu;
+            i44=this.index;
             dianbianse44()
         }
     }
@@ -105,14 +106,14 @@ var i45=0;
 var lisphb5=document.querySelectorAll(".z355 .paihang1dianbaba div")
 var z355=document.querySelector(".z355 .znzn700330")
     for(var k45=0;k45<lisphb5.length;k45++){
-        lisphb5[k45].lululu=k45;
+        lisphb5[k45].index=k45;
         lisphb5[k45].onmouseover=function(){
-            if(this.lululu>=i45){
-                lunbo4(z355,"left",-350*this.lululu)
+            if(this.index>=i45){
+                lunbo4(z355,"left",-350*this.index)
             }else{
-                lunbo4(z355,"right",-350*this.lululu)
+                lunbo4(z355,"right",-350*this.index)
             }
-            i45=this.lululu;
+            i45=this.index;
             dianbianse45()
         }
     }

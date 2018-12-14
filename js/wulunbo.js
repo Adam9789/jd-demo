@@ -1,3 +1,4 @@
+//第五个轮播（会买合辑）
 function lunbo5(aa,bb,cc){
         clearInterval(aa.timer)
         if(bb==="left"){
@@ -57,14 +58,14 @@ function lunbo5(aa,bb,cc){
     // diandian
     var wudian=document.querySelectorAll(".fenwudianbaba div")
     for(var kwu=0;kwu<wudian.length;kwu++){
-        wudian[kwu].lululu=kwu;
+        wudian[kwu].index=kwu;
         wudian[kwu].onmouseover=function(){
-            if(this.lululu>=i5){
-                lunbo5(fen1400390,"left",-350*this.lululu)
+            if(this.index>=i5){
+                lunbo5(fen1400390,"left",-350*this.index)
             }else{
-                lunbo5(fen1400390,"right",-350*this.lululu)
+                lunbo5(fen1400390,"right",-350*this.index)
             }
-            i5=this.lululu;
+            i5=this.index;
             dianbianse5()
         }
     }

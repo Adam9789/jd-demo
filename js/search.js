@@ -1,3 +1,5 @@
+//  搜索框js
+
  sch.onkeyup=function(ev){
     if(sch.value!==""){
         schxiala.style.display="block"
@@ -10,7 +12,6 @@
             window.location.href=`https://search.jd.com/Search?keyword=${sch.placeholder}&enc=utf-8&pvid=831b0f19a0c447b38b685a84fa022261`
         }
     }
-    // input.value;
     var soh=document.createElement("script");
     soh.src="https://suggest.taobao.com/sug?code=utf-8&q="+sch.value+"&_ksTS=1542866740021_6609&callback=fn&k=1&area=c2c&bucketid=4";
     document.getElementsByTagName("head")[0].appendChild(soh);

@@ -1,3 +1,4 @@
+// 详情页放大镜
 $(".maintu").mouseover(function(){
     $(".jubukuang").css("display","block")
     $(".dakuang").css("display","block")
@@ -29,4 +30,18 @@ $(".maintu").mouseover(function(){
 $(".maintu").mouseout(function(){
     $(".jubukuang").css("display","none")
     $(".dakuang").css("display","none")
+})
+// 详情页选项卡
+$(".rightzong li").click(function(){
+  $(".rightzong li").attr("class","baili").eq($(this).index()).attr("class","hongli")
+  $(".jianjie").css("display","none").eq($(this).index()).css("display","block")
+})
+// 详情页商品数量选择加减
+$(".jia1").click(function(){
+  $(".addnum").html(parseInt($(".addnum").html())+1)
+})
+$(".jian1").click(function(){
+  if(parseInt($(".addnum").html())>0){
+  $(".addnum").html(parseInt($(".addnum").html())-1)
+}
 })

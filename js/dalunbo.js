@@ -1,3 +1,5 @@
+//大轮播
+// 获取后台数据
 $.ajax({
     type:"get",
     url:"php/aaa.php",
@@ -52,9 +54,9 @@ var fstlb=document.getElementsByClassName("firstlb")
     // 绑定圆点触摸移动
     var lis=document.querySelectorAll(".smdianbaba li")
     for(var k=0;k<lis.length;k++){
-        lis[k].lululu=k;
+        lis[k].index=k;
         lis[k].onmouseover=function(){
-            i=this.lululu;
+            i=this.index;
             jdlunbo()
             dianbianse()
         }

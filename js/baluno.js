@@ -1,3 +1,4 @@
+//特色推荐轮播图
 function lunbo8(aa,bb,cc){
         clearInterval(aa.timer)
         if(bb==="left"){

@@ -1,3 +1,4 @@
+// banner右侧促销和公告选项卡及下面的小红线的移动
 function cuxiao(aa,bb,cc){
         clearInterval(aa.timer)
         if(bb==="left"){

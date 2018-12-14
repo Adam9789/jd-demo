@@ -1,3 +1,4 @@
+// banner京东秒杀定时器两小时
 function addzero(a){
         if(a<10){
             a="0"+a

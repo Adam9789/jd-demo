@@ -1,4 +1,5 @@
- function lunbo6(aa,bb,cc){
+//领券中心点击轮播选项卡
+function lunbo6(aa,bb,cc){
         clearInterval(aa.timer)
         if(bb==="left"){
             aa.timer=setInterval(function(){

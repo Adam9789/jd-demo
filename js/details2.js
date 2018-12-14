@@ -1,3 +1,4 @@
+//详情页下面相关书籍产品的数据引入
 $.ajax({
     type:"get",
     url:"../php/aaa.php",
@@ -14,6 +15,7 @@ $.ajax({
         $(".drxgcontent").html(shumingstr);
     }
 })
+// 产品介绍里目录部分的拉取
 $(".jixukan a").click(function(){
     $(".muluquanbu").css("display","block")
     $(".mulusuolue").css("display","none")

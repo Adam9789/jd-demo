@@ -1,3 +1,4 @@
+//第七个轮播（排行榜下面的觅me）
 function lunbo7(aa,bb,cc){
         clearInterval(aa.timer)
         if(bb==="left"){

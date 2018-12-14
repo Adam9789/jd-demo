@@ -40,7 +40,7 @@ $.ajax({
                 })
             }
         }
-
+        //按钮点击移动
         var iiier = 0;
         ne2xt.onclick = function () {
             if (iiier >= 4) {

@@ -75,13 +75,13 @@ $.ajax({
         var liststr="";
         JSON.parse(res).forEach(item => {
             liststr+=` <li class="xiaolist">
-            <a href="#">
+            <a href="javascript:;">
             <img src="images/${item.imgurl}" alt="">
             <p class="pp">${item.content}</p>
             <p class="pp2">￥${item.price}</p>
             </a>
             <div class="gengduo">
-                <a href="#"><p class="zxs">找相似</p></a>
+                <a href="javascript:;"><p class="zxs">找相似</p></a>
             </div>
         </li>`
         });

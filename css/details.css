@@ -853,6 +853,7 @@ nav{
     width: 425px;
     line-height: 30px;
     color: #666;
+    padding-top: 2px;
 }
 .addprice{
     color: #df3033;
@@ -892,6 +893,10 @@ nav{
     width: 518px;
     line-height: 26px;
     color: #666;
+    padding-top: 2px;
+}
+.ddright4 a{
+    color: #666;
 }
 .peisongdizhi i{
     font-size: 12px !important;
@@ -918,11 +923,12 @@ nav{
     color: #666;
 }
 .prov{
-    padding: 0 7px;
+    padding: 1px 7px;
     height: 28px;
     border:1px solid #ddd;
     margin-right: 7px;
     display: inline-block;
+    cursor: pointer;
 }
 .prov img{
     vertical-align: -4px;
@@ -930,6 +936,7 @@ nav{
 .prov i{
     font-size: 12px !important;
 }
+
 .wenhao{
     vertical-align: -5px;
     width: 18px;
@@ -1014,7 +1021,7 @@ nav{
     float: left;
     width: 210px;
 }
-.xgfl{
+.xgfl,.drchoose{
     width: 100%;
     margin-bottom: 10px;
 }

@@ -31,7 +31,27 @@ $(".maintu").mouseout(function(){
     $(".jubukuang").css("display","none")
     $(".dakuang").css("display","none")
 })
-// 详情页选项卡
+//意外保障选择
+var flag1=true;
+var flag2=true;
+$(".prov1").click(function(){
+  if(flag1){
+  $(this).css("border","2px solid #E3393C").css("padding","0 6px")
+}else{
+  $(this).css("border","1px solid #ddd").css("padding","1px 7px")
+}
+flag1=!flag1
+})
+$(".prov2").click(function(){
+  if(flag2){
+  $(this).css("border","2px solid #E3393C").css("padding","0 6px")
+}else{
+  $(this).css("border","1px solid #ddd").css("padding","1px 7px")
+}
+flag2=!flag2
+})
+
+// 详情页简介售后评论选项卡
 $(".rightzong li").click(function(){
   $(".rightzong li").attr("class","baili").eq($(this).index()).attr("class","hongli")
   $(".jianjie").css("display","none").eq($(this).index()).css("display","block")

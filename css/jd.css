@@ -463,12 +463,15 @@ nav{
 input{
     outline: none;
 }
+::-webkit-input-placeholder{
+    color: #999;
+}
 #sch{
     width: 500px;
     height: 35px;
     border:none;
     float: left;
-    color: #989898;
+    color: #666;
 }
 #schxiala{
     width: 498px;
@@ -2380,7 +2383,7 @@ nav #nbtn{
     border:none;
     background: #efefef;
     float: left;
-    color: #989898;
+    color: #666;
 }
 #nbtn2{
     width:50px;
